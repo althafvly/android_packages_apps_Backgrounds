@@ -29,7 +29,7 @@ import org.lineageos.backgrounds_old.factory.UserWallpaperFactory.build
 internal class FetchDataImpl(private val mCallbacks: Callback) {
     private val mData: MutableList<WallpaperBundle> = ArrayList()
     fun fetchData(): List<WallpaperBundle> {
-        addUser()
+        //addUser()
         addBuiltIn()
         addColors()
         addGradients()
