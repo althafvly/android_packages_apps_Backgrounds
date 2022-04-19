@@ -20,7 +20,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "org.lineageos.backgrounds"
+        applicationId "org.lineageos.backgrounds_old"
         minSdkVersion 27
         targetSdkVersion 28
         versionCode 1

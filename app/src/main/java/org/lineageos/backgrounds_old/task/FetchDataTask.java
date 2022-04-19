@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.task;
+package org.lineageos.backgrounds_old.task;
 
 import android.app.WallpaperManager;
 import android.content.res.Resources;
@@ -21,7 +21,7 @@ import android.os.AsyncTask;
 
 import androidx.annotation.NonNull;
 
-import org.lineageos.backgrounds.bundle.WallpaperBundle;
+import org.lineageos.backgrounds_old.bundle.WallpaperBundle;
 
 import java.util.List;
 

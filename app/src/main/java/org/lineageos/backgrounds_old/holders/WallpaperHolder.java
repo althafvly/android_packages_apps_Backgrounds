@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.holders;
+package org.lineageos.backgrounds_old.holders;
 
 import android.graphics.drawable.Drawable;
 import android.view.View;
@@ -23,10 +23,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.lineageos.backgrounds.R;
-import org.lineageos.backgrounds.bundle.WallpaperBundle;
-import org.lineageos.backgrounds.ui.SelectionInterface;
-import org.lineageos.backgrounds.util.ColorUtils;
+import org.lineageos.backgrounds_old.R;
+import org.lineageos.backgrounds_old.bundle.WallpaperBundle;
+import org.lineageos.backgrounds_old.ui.SelectionInterface;
+import org.lineageos.backgrounds_old.util.ColorUtils;
 
 public class WallpaperHolder extends RecyclerView.ViewHolder {
     @NonNull

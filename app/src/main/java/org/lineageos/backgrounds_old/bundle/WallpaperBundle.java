@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.bundle;
+package org.lineageos.backgrounds_old.bundle;
 
 import android.graphics.drawable.Drawable;
 import android.os.Parcel;
@@ -22,7 +22,7 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.lineageos.backgrounds.util.TypeConverter;
+import org.lineageos.backgrounds_old.util.TypeConverter;
 
 public final class WallpaperBundle implements Parcelable {
     public static final int DESCRIPTOR_EMPTY = -1;

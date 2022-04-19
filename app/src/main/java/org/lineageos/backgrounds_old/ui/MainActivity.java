@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.ui;
+package org.lineageos.backgrounds_old.ui;
 
 import android.app.WallpaperManager;
 import android.content.Intent;
@@ -33,12 +33,12 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
-import org.lineageos.backgrounds.R;
-import org.lineageos.backgrounds.adapters.WallsAdapter;
-import org.lineageos.backgrounds.bundle.WallpaperBundle;
-import org.lineageos.backgrounds.bundle.WallpaperType;
-import org.lineageos.backgrounds.factory.UserWallpaperFactory;
-import org.lineageos.backgrounds.task.FetchDataTask;
+import org.lineageos.backgrounds_old.R;
+import org.lineageos.backgrounds_old.adapters.WallsAdapter;
+import org.lineageos.backgrounds_old.bundle.WallpaperBundle;
+import org.lineageos.backgrounds_old.bundle.WallpaperType;
+import org.lineageos.backgrounds_old.factory.UserWallpaperFactory;
+import org.lineageos.backgrounds_old.task.FetchDataTask;
 
 import java.util.List;
 

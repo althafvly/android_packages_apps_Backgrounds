@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.util;
+package org.lineageos.backgrounds_old.util;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.util;
+package org.lineageos.backgrounds_old.util;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -22,7 +22,7 @@ import android.graphics.drawable.Drawable;
 
 import androidx.annotation.NonNull;
 
-import org.lineageos.backgrounds.bundle.WallpaperType;
+import org.lineageos.backgrounds_old.bundle.WallpaperType;
 
 public final class TypeConverter {
 

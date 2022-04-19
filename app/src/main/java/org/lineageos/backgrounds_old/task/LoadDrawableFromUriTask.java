@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.task;
+package org.lineageos.backgrounds_old.task;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.task;
+package org.lineageos.backgrounds_old.task;
 
 import android.app.WallpaperManager;
 import android.graphics.Bitmap;
@@ -22,7 +22,7 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import org.lineageos.backgrounds.util.TypeConverter;
+import org.lineageos.backgrounds_old.util.TypeConverter;
 
 import java.io.IOException;
 

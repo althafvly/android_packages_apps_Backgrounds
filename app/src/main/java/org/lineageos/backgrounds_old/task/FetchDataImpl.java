@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.task;
+package org.lineageos.backgrounds_old.task;
 
 import android.app.WallpaperManager;
 import android.content.res.Resources;
@@ -22,12 +22,12 @@ import android.graphics.Color;
 
 import androidx.annotation.NonNull;
 
-import org.lineageos.backgrounds.R;
-import org.lineageos.backgrounds.bundle.WallpaperBundle;
-import org.lineageos.backgrounds.factory.BuiltInWallpaperFactory;
-import org.lineageos.backgrounds.factory.GradientWallpaperFactory;
-import org.lineageos.backgrounds.factory.MonoWallpaperFactory;
-import org.lineageos.backgrounds.factory.UserWallpaperFactory;
+import org.lineageos.backgrounds_old.R;
+import org.lineageos.backgrounds_old.bundle.WallpaperBundle;
+import org.lineageos.backgrounds_old.factory.BuiltInWallpaperFactory;
+import org.lineageos.backgrounds_old.factory.GradientWallpaperFactory;
+import org.lineageos.backgrounds_old.factory.MonoWallpaperFactory;
+import org.lineageos.backgrounds_old.factory.UserWallpaperFactory;
 
 import java.util.ArrayList;
 import java.util.List;

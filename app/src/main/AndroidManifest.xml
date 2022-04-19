@@ -15,7 +15,7 @@
   -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.lineageos.backgrounds">
+    package="org.lineageos.backgrounds_old">
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
 
@@ -29,7 +29,7 @@
         tools:ignore="GoogleAppIndexingWarning">
 
         <activity
-            android:name=".ui.MainActivity"
+            android:name="org.lineageos.backgrounds_old.ui.MainActivity"
             android:excludeFromRecents="true"
             android:resizeableActivity="false"
             android:theme="@style/AppTheme.TranslucentNav">
@@ -40,14 +40,14 @@
         </activity>
 
         <activity
-            android:name=".ui.ApplyActivity"
+            android:name="org.lineageos.backgrounds_old.ui.ApplyActivity"
             android:excludeFromRecents="true"
             android:resizeableActivity="false"
             android:theme="@style/AppTheme.PrimaryNav" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="org.lineageos.backgrounds.files"
+            android:authorities="org.lineageos.backgrounds_old.files"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

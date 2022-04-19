@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.ui;
+package org.lineageos.backgrounds_old.ui;
 
 import android.annotation.SuppressLint;
 import android.app.WallpaperManager;
@@ -38,13 +38,13 @@ import androidx.core.content.ContextCompat;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
-import org.lineageos.backgrounds.R;
-import org.lineageos.backgrounds.bundle.WallpaperBundle;
-import org.lineageos.backgrounds.task.ApplyWallpaperTask;
-import org.lineageos.backgrounds.task.LoadDrawableFromUriTask;
-import org.lineageos.backgrounds.util.ColorUtils;
-import org.lineageos.backgrounds.util.TypeConverter;
-import org.lineageos.backgrounds.util.UiUtils;
+import org.lineageos.backgrounds_old.R;
+import org.lineageos.backgrounds_old.bundle.WallpaperBundle;
+import org.lineageos.backgrounds_old.task.ApplyWallpaperTask;
+import org.lineageos.backgrounds_old.task.LoadDrawableFromUriTask;
+import org.lineageos.backgrounds_old.util.ColorUtils;
+import org.lineageos.backgrounds_old.util.TypeConverter;
+import org.lineageos.backgrounds_old.util.UiUtils;
 
 public final class ApplyActivity extends AppCompatActivity {
     public static final String EXTRA_TRANSITION_NAME = "transition_shared_preview";

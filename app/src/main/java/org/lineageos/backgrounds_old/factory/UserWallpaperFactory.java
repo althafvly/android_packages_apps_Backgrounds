@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.factory;
+package org.lineageos.backgrounds_old.factory;
 
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 
 import androidx.annotation.NonNull;
 
-import org.lineageos.backgrounds.R;
-import org.lineageos.backgrounds.bundle.WallpaperBundle;
-import org.lineageos.backgrounds.bundle.WallpaperType;
+import org.lineageos.backgrounds_old.R;
+import org.lineageos.backgrounds_old.bundle.WallpaperBundle;
+import org.lineageos.backgrounds_old.bundle.WallpaperType;
 
 public final class UserWallpaperFactory {
 

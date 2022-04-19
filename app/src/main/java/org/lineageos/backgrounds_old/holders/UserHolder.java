@@ -13,29 +13,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.util;
+package org.lineageos.backgrounds_old.holders;
 
 import android.view.View;
-import android.view.Window;
 
-import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 
-public final class UiUtils {
+import org.lineageos.backgrounds_old.bundle.WallpaperBundle;
+import org.lineageos.backgrounds_old.ui.SelectionInterface;
 
-    private UiUtils() {
+public final class UserHolder extends WallpaperHolder {
+
+    public UserHolder(@NonNull final View itemView,
+                      @NonNull final SelectionInterface callback) {
+        super(itemView, callback);
     }
 
-    public static void setStatusBarColor(@NonNull final Window window, @ColorInt final int color) {
-        window.setStatusBarColor(color);
-        final boolean isLight = ColorUtils.isColorLight(color);
-        int flags = window.getDecorView().getSystemUiVisibility();
-        if (isLight) {
-            flags |= View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
-        } else {
-            flags &= ~View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
-        }
+    @Override
+    public void bind(@NonNull final WallpaperBundle bundle) {
+        super.bind(bundle);
 
-        window.getDecorView().setSystemUiVisibility(flags);
+        itemView.setOnClickListener(v -> callback.onWallpaperSelected(previewView, null));
     }
 }

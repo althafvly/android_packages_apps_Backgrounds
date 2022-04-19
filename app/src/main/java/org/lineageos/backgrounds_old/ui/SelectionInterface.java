@@ -13,26 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds.holders;
+package org.lineageos.backgrounds_old.ui;
 
 import android.view.View;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
-import org.lineageos.backgrounds.bundle.WallpaperBundle;
-import org.lineageos.backgrounds.ui.SelectionInterface;
+import org.lineageos.backgrounds_old.bundle.WallpaperBundle;
 
-public final class UserHolder extends WallpaperHolder {
+public interface SelectionInterface {
 
-    public UserHolder(@NonNull final View itemView,
-                      @NonNull final SelectionInterface callback) {
-        super(itemView, callback);
-    }
-
-    @Override
-    public void bind(@NonNull final WallpaperBundle bundle) {
-        super.bind(bundle);
-
-        itemView.setOnClickListener(v -> callback.onWallpaperSelected(previewView, null));
-    }
+    /**
+     * Callback for wallpaper click
+     *
+     * @param bundle if null, it means that wallpaper must be fetched from the sdcard
+     */
+    void onWallpaperSelected(@NonNull View view,
+                             @Nullable WallpaperBundle bundle);
 }
