@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2022 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,12 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds_old.bundle;
+package org.lineageos.backgrounds_old.bundle
 
-public enum WallpaperType {
-    BUILT_IN,
-    DEFAULT,
-    GRADIENT,
-    MONO,
-    USER
+enum class WallpaperType {
+    BUILT_IN, DEFAULT, GRADIENT, MONO, USER
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2022 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,22 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.backgrounds_old.ui;
+package org.lineageos.backgrounds_old.factory
 
-import android.view.View;
+import android.graphics.drawable.ColorDrawable
+import androidx.annotation.ColorInt
+import org.lineageos.backgrounds_old.bundle.WallpaperBundle
+import org.lineageos.backgrounds_old.bundle.WallpaperType
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-
-import org.lineageos.backgrounds_old.bundle.WallpaperBundle;
-
-public interface SelectionInterface {
-
-    /**
-     * Callback for wallpaper click
-     *
-     * @param bundle if null, it means that wallpaper must be fetched from the sdcard
-     */
-    void onWallpaperSelected(@NonNull View view,
-                             @Nullable WallpaperBundle bundle);
+object MonoWallpaperFactory {
+    @JvmStatic
+    fun build(
+        name: String,
+        @ColorInt color: Int
+    ): WallpaperBundle {
+        return WallpaperBundle(name, ColorDrawable(color), color, WallpaperType.MONO)
+    }
 }
