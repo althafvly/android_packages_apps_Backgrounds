@@ -31,8 +31,9 @@
         <activity
             android:name="org.lineageos.backgrounds_old.ui.MainActivity"
             android:excludeFromRecents="true"
-            android:resizeableActivity="false"
-            android:theme="@style/AppTheme.TranslucentNav">
+            android:resizeableActivity="true"
+            android:theme="@style/AppTheme.TranslucentNav"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SET_WALLPAPER" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -42,7 +43,7 @@
         <activity
             android:name="org.lineageos.backgrounds_old.ui.ApplyActivity"
             android:excludeFromRecents="true"
-            android:resizeableActivity="false"
+            android:resizeableActivity="true"
             android:theme="@style/AppTheme.PrimaryNav" />
 
         <provider
